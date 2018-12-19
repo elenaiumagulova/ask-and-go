@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ask &amp; Go | Login</title>
+
+    <link rel="stylesheet" href="./assets/fonts.css" media="all" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/main.css" medis="all" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/auth.css" medis="all" title="no title" charset="utf-8">
+
+  </head>
+  <body>
+    <nav>
+      <div class="row">
+        <div class="col-1-8">
+          <div class="menu-box" id="menu">
+            <div class="menu-img-wrap">
+              <img src="./assets/imgs/icons/menu.png" class="menu-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="menu" data-hidden="true">
+      <ul class="row">
+        <li class="row">
+          <div class="row medium"><a href="/">Home</a></div>
+          <hr>
+        </li>
+        <li class="row">
+          <div class="row medium"><a href="./about">About Us</a></div>
+          <hr>
+        </li>
+        <li class="row">
+          <div class="row medium"><a href="./contacts">Contacts</a></div>
+          <hr>
+        </li>
+        <li class="row">
+          <div class="row medium"><a href="./signup">Sign Up</a></div>
+          <hr>
+        </li>
+        <li class="row">
+          <div class="row medium"><a href="./improve">Improve</a></div>
+          <hr>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="margin-top-huge login">
+          <form class="row" method="post">
+            <input type="text" name="login_login" value="" placeholder="Username" class="row">
+            <input type="password" name="login_pass" value="" placeholder="Password" class="row">
+            <input type="button" name="login_submit" value="Sign In" class="col-4-8 offset-2-8">
+          </form>
+          <div class="row errors">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/libs/jquery.easing.js"></script>
+    <script type="text/javascript" src="./js/auth.js"></script>
+  </body>
+</html>
